@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#container {
+    width: 80%;
+    height: 50vh;
+    border: 5px solid #0c5f5c;
+    border-radius: 5%;
+    margin: auto;
+    background: rgb(64,170,121);
+    background: radial-gradient(circle, rgba(64,170,121,1) 0%, rgba(169,208,85,1) 100%);
+}
+
+#infoVille {
+    width: 40%;
+    height: 20%;
+    border: 2px solid #17179b;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: rgb(177,218,199);
+    background: radial-gradient(circle, rgba(177,218,199,1) 0%, rgba(166,169,196,1) 100%);
+    padding: 0 2%;
+}
+
+label {
+    font-size: 20px;
+}
+button {
+    margin: auto;
+}
+
+#lattidude {}
