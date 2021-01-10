@@ -22,6 +22,8 @@ body {
     margin: auto;
     background: rgb(64,170,121);
     background: radial-gradient(circle, rgba(64,170,121,1) 0%, rgba(169,208,85,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #infoVille {
@@ -42,4 +44,30 @@ button {
     margin: auto;
 }
 
-#lattidude {}
+#result {
+    width: 50%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 3px solid blue;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
+                rgba(29,253,220,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 2%;
+    color: whitesmoke;
+}
+
+#ciel {
+    width: 40%;
+    border: 3px solid blue;
+    background: rgb(228,251,63);
+    background: radial-gradient(circle, rgba(228,251,63,0.8491597322522759) 0%,
+    rgb(45, 92, 234) 100%);
+    margin-top: -280px;
+    margin-bottom: 85px;
+    margin-left: 10px;
+    position: relative;
+    padding: 2%;
+    color: whitesmoke;
+    background-size: cover;
+}
