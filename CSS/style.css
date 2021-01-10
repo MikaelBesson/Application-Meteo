@@ -53,7 +53,7 @@ button {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
                 rgba(29,253,220,1) 50%, rgba(252,176,69,1) 100%);
-    padding: 5%;
+    padding: 2% 2% 2% 30px;
     color: whitesmoke;
 }
 
@@ -62,7 +62,7 @@ button {
     border: 3px solid blue;
     background: rgb(228,251,63);
     background: radial-gradient(circle, rgba(228,251,63,0.8491597322522759) 0%,
-    rgb(45, 92, 234) 100%);
+                rgb(45, 92, 234) 100%);
     margin-top: -280px;
     margin-bottom: 85px;
     margin-left: 10px;

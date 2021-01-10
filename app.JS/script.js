@@ -19,7 +19,7 @@ bouton.addEventListener("click", function (){
                 let response = xhr.response;
                 result.style.fontSize = "x-large";
                 result.innerHTML =
-                    "actuellement a " + ville.value + "<br>" +
+                    "actuellement a " + ville.value + "<br>" + "<br>" +
                     " lat " + response.coord.lat + "<br>" +
                     " long " + response.coord.lon + "<br>" +
                     "temperature " + Math.ceil(response.main.feels_like) + " degres" + "<br>" +
