@@ -55,6 +55,7 @@ button {
                 rgba(29,253,220,1) 50%, rgba(252,176,69,1) 100%);
     padding: 2% 2% 2% 30px;
     color: whitesmoke;
+    text-align: center;
 }
 
 #ciel {
