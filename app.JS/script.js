@@ -17,13 +17,13 @@ bouton.addEventListener("click", function (){
         xhr.onload = function (){
             if(xhr.status === 200){
                 let response = xhr.response;
-                console.log(response);
                 result.style.fontSize = "x-large";
                 result.innerHTML =
                     "actuellement a " + ville.value + "<br>" +
                     " lat " + response.coord.lat + "<br>" +
                     " long " + response.coord.lon + "<br>" +
-                    "temperature " + Math.ceil(response.main.temp) + " degres" + "<br>" +
+                    "temperature " + Math.ceil(response.main.feels_like) + " degres" + "<br>" +
+                    "ressentie " + Math.ceil(response.main.temp) + " degres" + "<br>" +
                     "temp max " + Math.ceil(response.main.temp_max) + " degres" + "<br>" +
                     "temp min " + Math.ceil(response.main.temp_min) + " degres" + "<br>" +
                     "humidité " + response.main.humidity + "<br>" +
