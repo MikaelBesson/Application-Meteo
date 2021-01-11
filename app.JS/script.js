@@ -17,6 +17,7 @@ bouton.addEventListener("click", function (){
         xhr.onload = function (){
             if(xhr.status === 200){
                 let response = xhr.response;
+                console.log(response);
                 result.style.fontSize = "x-large";
                 result.innerHTML =
                     "actuellement a " + ville.value + "<br>" + "<br>" +
@@ -56,6 +57,9 @@ function afficheFond (renduCiel) {
             break
         case "brouillard":
             ciel.style.backgroundImage = "url('./images/brouillard.jpg')";
+            break
+        case "brume":
+            ciel.style.backgroundImage = "url('./images/brume.jpg')";
             break
         case "ciel dégagé":
             ciel.style.backgroundImage = "url('./images/cielDegage.jpg')";
