@@ -1,11 +1,12 @@
-// mes variables
+// my variables
 
 let result = $("#result");
 let ciel = $("#ciel");
 let button = $("#valid");
 let xhr = new XMLHttpRequest();
 
-//recuperation de l'API est affichage des demandes
+// recuperation de l'API est affichage des demandes
+// API retrieval is display of requests
 
 button.click(function(){
     let ville = $("#input").val();
@@ -31,7 +32,7 @@ button.click(function(){
 
             afficheFond(renduCiel);
             ciel.html(
-                "vitesse du vent " + response.wind.speed + "<br>" +
+                "vitesse du vent " + response.wind.speed + "km/h" + "<br>" +
                 "ciel " + renduCiel
             )
         });
@@ -39,6 +40,7 @@ button.click(function(){
 })
 
 // fonction pour changer l'image du div par apport au temps qu'il fait
+// function to change the image of the div according to the weather
 
 function afficheFond (renduCiel) {
     switch (renduCiel){
